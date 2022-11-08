@@ -1,0 +1,147 @@
+/*параметри сторінки*/
+html, body {
+    height: 2100px;
+    width: 1440px;
+}
+/*логотип*/
+#logo
+{
+    position: absolute;
+    width: 197px;
+    left: 622px;
+    top: 0px;
+
+    background: url(image.png);
+}
+/*гроизонтальні лінії*/
+hr
+{
+    position: absolute;
+    height: 0px;
+    border: 2px solid #000000;
+}
+#hr1
+{
+    left: 500px;
+    top: 139px;
+    width: 100px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(180deg);
+}
+#hr2
+{
+    left: 840px;
+    top: 139px;
+    width: 100px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(180deg);
+}
+#hr3
+{
+    width: 600px;
+    left: 420px;
+    top: 400px;
+}
+/*назва*/
+#hot
+{
+    position: absolute;
+    width: 451px;
+    height: 138px;
+    left: 495px;
+    top: 278px;
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 82px;
+    text-align: center;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/*повернення*/
+a
+{
+    position: absolute;
+    width: 366px;
+    height: 100px;
+    left: 90px;
+    top: 40px;
+
+    font-family: 'Yinmar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 66px;
+    display: flex;
+    align-items: flex-end;
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+/*назви страв*/ 
+h1
+{
+    position: absolute;
+    width: 798px;
+    height: 60px;
+    left: 116px;
+    font-family: 'Yinmar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 66px;
+    color: #000000;
+}
+#h1{top: 481px;}
+#h2{top: 649px;}
+#h3{top: 847px;}
+#h4{top: 1032px;}
+#h5{top: 1243px;}
+#h6{top: 1428px;}
+#h7{top: 1639px;}
+#h8{top: 1850px;}
+/*назви страв*/ 
+h2
+{
+    position: absolute;
+    width: 1024px;
+    height: 125px;
+    left: 142px;
+    font-family: 'Yinmar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+}
+#about1{top: 541px;}
+#about2{top: 709px;}
+#about3{top: 907px;}
+#about4{top: 1092px;}
+#about5{top: 1303px;}
+#about6{top: 1488px;}
+#about7{top: 1699px;}
+#about8{top: 1910px;}
+/*ціни*/ 
+h3
+{
+    position: absolute;
+    width: 221px;
+    height: 48px;
+    left: 1231px;
+    font-family: 'Yinmar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    color: #000000;
+}
+#price1{top: 494px;}
+#price2{top: 662px;}
+#price3{top: 860px;}
+#price4{top: 1045px;}
+#price5{top: 1256px;}
+#price6{top: 1441px;}
+#price7{top: 1652px;}
+#price8{top: 1863px;}
